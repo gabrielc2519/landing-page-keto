@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Tipografía base y colores */
+body {
+  @apply font-sans text-slate-900 bg-[#f9fafb] leading-relaxed;
+}
+
+/* Botones */
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold shadow-sm transition;
+}
+
+.btn-green {
+  @apply bg-green-600 text-white hover:bg-green-700;
+}
+
+.btn-dark {
+  @apply bg-emerald-900 text-white hover:bg-emerald-950;
+}
+
+.btn-outline {
+  @apply border border-green-600 text-green-700 hover:bg-green-50;
+}
+
+/* Secciones */
+.section {
+  @apply py-16 md:py-20;
+}
+
+.section-alt {
+  @apply py-16 md:py-20 bg-gradient-to-b from-emerald-50 to-white;
+}
+
+/* Tarjetas */
+.card {
+  @apply rounded-2xl border border-green-100 bg-white/80 backdrop-blur-sm p-6 shadow-sm hover:shadow-lg transition;
+}
+
+/* Titulares */
+h1, h2, h3 {
+  @apply font-extrabold tracking-tight text-emerald-800;
+}
