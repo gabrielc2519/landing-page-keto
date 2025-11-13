@@ -7,6 +7,8 @@ import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import Guarantees from "./components/Guarantees";
+
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
       <Testimonials />
       <CTA />
       <FAQ />
+      <Guarantees />
       <Footer />
     </div>
   );
