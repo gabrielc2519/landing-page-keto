@@ -15,7 +15,7 @@ export default function Guarantees() {
             />
             <h4 className="font-semibold text-lg">Compra segura</h4>
             <p className="text-sm text-emerald-100">
-              Pagos protegidos 100% por Hotmart.
+              Transacción cifrada y protegida con estándares internacionales.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export default function Guarantees() {
             />
             <h4 className="font-semibold text-lg">Satisfacción garantizada</h4>
             <p className="text-sm text-emerald-100">
-              Tenés 7 días de garantía sin preguntas.
+              Tenés 7 días de garantía de reembolso.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function Guarantees() {
             />
             <h4 className="font-semibold text-lg">Privacidad protegida</h4>
             <p className="text-sm text-emerald-100">
-              Tus datos personales están 100% seguros.
+              Tus datos personales están protegidos.
             </p>
           </div>
 

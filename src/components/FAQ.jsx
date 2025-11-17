@@ -2,7 +2,7 @@ import Container from "./ui/Container";
 
 export default function FAQ() {
   const faqs = [
-    { q: "¿Cómo recibo el material?", a: "Hotmart te envía el acceso por email inmediatamente después de pagar." },
+    { q: "¿Cómo recibo el material?", a: "Se envía el acceso por email inmediatamente después de pagar." },
     { q: "¿Necesito experiencia previa?", a: "No. Es paso a paso para principiantes." },
     { q: "¿Funciona desde el celular?", a: "Sí, lo ves desde móvil, tablet o computadora." },
     { q: "¿Hay garantía?", a: "Sí, 7 días para solicitar reembolso si no te convence." },

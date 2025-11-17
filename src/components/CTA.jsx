@@ -2,7 +2,7 @@ import Button from "./ui/Button";
 import Container from "./ui/Container";
 
 const PRICE = "$14.99";
-const AFFILIATE_URL = "https://TU-ENLACE-DE-AFILIADO-HOTMART.com";
+const AFFILIATE_URL = "https://go.hotmart.com/T102906773H?ap=d8fd";
 
 export default function CTA() {
   return (

@@ -111,7 +111,7 @@ export default function Program() {
           </h3>
 
           <h3 className="text-3xl md:text-4xl font-extrabold text-center text-emerald-900 mb-6">
-            Te REGALAMOS <span className="text-emerald-600">3 bonos adicionales</span>
+            TE REGALAMOS <span className="text-emerald-600">3 bonos adicionales</span>
           </h3>
 
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-10">

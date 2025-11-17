@@ -3,8 +3,8 @@ import Container from "./ui/Container";
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Mariana López",
-      role: "Emprendedora, Buenos Aires",
+      name: "Mariano López",
+      role: "Emprendedor, Buenos Aires",
       quote:
         "El Ebook me dio un plan realista. En dos semanas ya tenía más energía para trabajar y cocinar sano sin gastar de más.",
       image:
@@ -12,19 +12,19 @@ export default function Testimonials() {
     },
     {
       name: "Lucía Fernández",
-      role: "Mamá ocupada",
+      role: "Ama de casa",
       quote:
         "Las guías rápidas y los bonos me salvaron. Ahora organizo la comida de toda la familia sin complicaciones y sigo en cetosis.",
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop",
     },
     {
-      name: "Carla Pereyra",
-      role: "Profesional de la salud",
+      name: "Carlos Gonzalez",
+      role: "Maestro",
       quote:
         "Me encantó la claridad con la que explica cada paso. Lo recomiendo a mis pacientes que buscan un enfoque keto sustentable.",
       image:
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop",
     },
     {
       name: "Julieta Ramos",
@@ -40,7 +40,7 @@ export default function Testimonials() {
       quote:
         "Me acompañó en cada etapa. La combinación de recetas, compras y hábitos me ayudó a mantenerme enfocada sin sentir culpa.",
       image:
-        "https://images.unsplash.com/photo-1524156868115-1c8913d79aa2?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?q=80&w=600&auto=format&fit=crop",
     },
   ];
 
@@ -63,7 +63,7 @@ export default function Testimonials() {
             Historias de personas que aplicaron el método
           </h2>
           <p className="text-emerald-100/90 text-sm md:text-base">
-            Cinco experiencias de nuestra comunidad que comenzaron con dudas y hoy disfrutan de más energía,
+            Experiencias de nuestra comunidad que comenzaron con dudas y hoy disfrutan de más energía,
             control y bienestar gracias al Ebook.
           </p>
         </div>

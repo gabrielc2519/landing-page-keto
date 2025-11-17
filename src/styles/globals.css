@@ -38,5 +38,6 @@ body {
 
 /* Titulares */
 h1, h2, h3 {
-  @apply font-extrabold tracking-tight text-emerald-800;
+  @apply font-extrabold tracking-tight;
 }
+

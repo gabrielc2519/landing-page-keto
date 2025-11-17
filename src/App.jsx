@@ -1,26 +1,33 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Keto from "./pages/Keto";
+import ScrollToTop from "./ScrollToTop";
 
+function App() {
+  return (
+    <>
+      <ScrollToTop />
 
-import Hero from "./components/Hero";
-import Benefits from "./components/Benefits";
-import Program from "./components/Program";
-import Testimonials from "./components/Testimonials";
-import CTA from "./components/CTA";
-import FAQ from "./components/FAQ";
-import Footer from "./components/Footer";
-import Guarantees from "./components/Guarantees";
-
+      {/* tus rutas */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/keto" element={<Keto />} />
+        {/* otras rutas... */}
+      </Routes>
+    </>
+  );
+}
 
 export default function App() {
   return (
-    <div className="min-h-screen">
-      <Hero />
-      <Benefits />
-      <Program />
-      <Testimonials />
-      <CTA />
-      <FAQ />
-      <Guarantees />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Página principal */}
+        <Route path="/" element={<Home />} />
+
+        {/* Landing del curso Código Keto */}
+        <Route path="/keto" element={<Keto />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
