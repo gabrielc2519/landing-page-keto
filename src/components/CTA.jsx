@@ -1,5 +1,5 @@
-import Button from "./ui/Button";
-import Container from "./ui/Container";
+import Button from "./UI/Button";
+import Container from "./UI/Container";
 
 const PRICE = "$14.99";
 const AFFILIATE_URL = "https://go.hotmart.com/T102906773H?ap=d8fd";

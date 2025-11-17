@@ -1,4 +1,4 @@
-import Container from "./ui/Container";
+import Container from "./UI/Container";
 
 export default function Guarantees() {
   return (

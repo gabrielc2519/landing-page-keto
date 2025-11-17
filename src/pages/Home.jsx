@@ -1,6 +1,6 @@
 // src/pages/Home.jsx
 import { Link } from "react-router-dom";
-import Container from "../components/ui/Container";
+import Container from "../components/UI/Container";
 import Footer from "../components/Footer";
 
 export default function Home() {

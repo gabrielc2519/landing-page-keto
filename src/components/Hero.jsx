@@ -1,5 +1,5 @@
-import Button from "./ui/Button";
-import Container from "./ui/Container";
+import Button from "./UI/Button";
+import Container from "./UI/Container";
 import { Link } from "react-router-dom";
 
 const PRICE = "$14.99";
